@@ -4,15 +4,19 @@
     <head>
         <meta charset="utf-8">
         <title>Weather App</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <form action="/" method="post">
-            <label for="cityInput">City Name</label>
-            <input id="cityInput" type="text" name="cityName">
-            <button type="submit">Go</button>
-
-        </form>
+        <h1 class="app-header">Weather Generator</h1>
+        <div id="form-div">
+            <form action="/" method="post">
+                <label id="city-label" for="cityInput">City Name</label><br>
+                <input id="cityInput" type="text" name="cityName"><br>
+                <button class="button" type="submit">Generate</button>
+            </form>
+        </div>
        
 
     </body>

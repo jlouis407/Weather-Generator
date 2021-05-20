@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+       <h1 class="app-header">Weather Generator</h1>
+       <img src=<%= weatherImage %> alt="icon"/>
+       <h2><%= nameOfCity %> - <%= temperature %></h2> 
+       <p id="caption"><%= caption %></p>
+       <form action="/" method="GET">
+        <button class="button" type="submit">Enter a New City</button>
+       </form>
+       
+
+    </body>
+</html>
